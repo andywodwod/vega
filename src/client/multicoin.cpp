@@ -77,7 +77,7 @@ CryptoKernel::MulticoinLoader::~MulticoinLoader() {
 
 std::function<uint64_t(const uint64_t)> CryptoKernel::MulticoinLoader::getSubsidyFunc(
                                   const std::string& name) const {
-    if(name == "k320") {
+    if(name == "vega") {
         return [](const uint64_t height) {
             const uint64_t COIN = 100000000;
             const uint64_t G = 100 * COIN;
