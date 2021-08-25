@@ -82,7 +82,7 @@ std::function<uint64_t(const uint64_t)> CryptoKernel::MulticoinLoader::getSubsid
             const uint64_t COIN = 100000000;
             const uint64_t G = 100 * COIN;
             const uint64_t blocksPerYear = 210240;
-            const long double k = 1 + (std::log(1 + 0.032) / blocksPerYear);
+            const long double k = 1 + (std::log(1 + 0.033) / blocksPerYear);
             const long double r = 1 + (std::log(1 - 0.24) / blocksPerYear);
             const uint64_t supplyAtSwitchover = 68720300 * COIN;
             const uint64_t switchoverBlock = 1741620;
