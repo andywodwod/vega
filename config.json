@@ -1,0 +1,28 @@
+{
+	"coins" : 
+	[
+		{
+			"blockdb" : "./blockdb",
+			"consensus" : 
+			{
+				"params" : 
+				{
+					"blocktime" : 150
+				},
+				"type" : "kgw_lyra2rev2"
+			},
+			"genesisblock" : "genesisblock.json",
+			"name" : "K320",
+			"peerdb" : "./peers",
+			"port" : 49000,
+			"rpcport" : 8383,
+			"subsidy" : "k320",
+			"walletdb" : "./addressesdb"
+		}
+	],
+	"rpcpassword" : "password",
+	"rpcuser" : "ckrpc",
+	"verbose" : false,
+	"pubKey": "BGOjpbmxzX26d7zHmNxy3RWb94MzTciGhF7y8ehF2EH2BlTDStCrAhSmmfmbaWDuRYqagRViAhVj6QhOsfp4oT4=",
+	"miner": false
+}
